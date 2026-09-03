@@ -4,6 +4,7 @@
 .chrome_profile/
 .chrome_profile_search_terms/
 .edge_profile/
+.edge_profile_search_terms/
 .ipynb_checkpoints/
 __pycache__/
 *.py[cod]

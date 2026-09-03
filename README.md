@@ -90,7 +90,7 @@ The transcription helper uses `local_files_only=True`; prepare the model locally
 
 Open `tiktok_search_term_discovery.ipynb` in JupyterLab, set the seed term, and run the notebook. It writes nested JSON and a human-readable CSV under `outputs/`.
 
-The second-level suggestions remain grouped under the first-level term that generated them. This makes relevance decisions auditable and prevents a large flat keyword list from obscuring the original search branch.
+The notebook requests TikTok's undocumented web autocomplete endpoint through a visible, persistent Edge session. The endpoint can change without notice. Second-level suggestions remain grouped under every first-level term that generated them, while the compact `layers` summary deduplicates repeated terms. This makes relevance decisions auditable without allowing a flat keyword list to obscure the original search branch.
 
 ### 2. Collect videos and prepare the handoff
 
