@@ -1,0 +1,15 @@
+.tiktok_credentials.json
+.env
+.venv/
+.chrome_profile/
+.chrome_profile_search_terms/
+.edge_profile/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.mp4
+*.mov
+*.webm
+data/
+outputs/
+archive/
