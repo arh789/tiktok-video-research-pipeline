@@ -1,0 +1,14 @@
+# Active collection, metadata, media-validation and transcription workflow
+av
+faster-whisper
+ipython
+jupyterlab
+numpy
+opencv-python
+pandas
+Pillow
+playwright
+yt-dlp
+
+# The optional legacy local-vision pass is disabled by default. If needed, also
+# install a CUDA-compatible build of torch plus transformers and accelerate.
